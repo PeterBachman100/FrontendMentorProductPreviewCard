@@ -7,9 +7,13 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
-	min-height: 650px;
 	padding: 16px;
+}
+@media screen and (min-width: 600px) {
+	body {
+		height: 100vh;
+		min-height: 650px;
+	}
 }
 .product {
 	display: flex;
